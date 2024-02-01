@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Coffee Shop </title>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Montserrat:wght@300&family=Poppins:wght@100&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./styles.css">
+        <style>
+            input {
+                display: block;
+                text-align: center;
+                margin-bottom: 10px;
+                max-width: 40%;
+            }
+
+            h1 {
+                margin-top: 50px;
+                text-align: center;
+            }
+
+            .container3 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 100px;
+                margin-right: 100px;
+                background-color: #776B5D;
+                color: #F3EEEA;
+                max-width: inherit;
+            }
+
+           button {
+            margin-top: 10px;
+           }
+
+           img {
+            padding-top: 10px;
+           }
+
+           p {
+            border-bottom: 5px dashed black;
+            border-top: 5px dashed black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+           }
+        </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <a href="./home.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./menu.html">Menu</a>
+        <a href="./contact.html">Contact</a>
+
+    </div>
+    <hr>
+    <div class="container3">
+        <h1>Contact Coffee Shop</h1>
+        <p>Whether you want to shoot us a suggestion, send us a compliment, or let us know how to improve, we welcom your feedback at Coffee Shop Boston. Drop us a line here and we'll get back to you shortly!</p>
+        <input type="text" id="first-name" placeholder="First Name..." required>
+        <input type="text" id="last-name" placeholder="Last Name..." required>
+        <input type="email" id="Email" placeholder="Email..." required>
+        <input type="tel" id="phone-number" placeholder="Phone Number..." required>
+        <textarea id="message" placeholder="Message..." rows="4" cols="20" style="text-align: center;" required></textarea>
+        <button type="submit">Submit your message to Coffee Shop!</button>
+        
+    </div>
+    
+
+
+
+</body>
+
+</html>

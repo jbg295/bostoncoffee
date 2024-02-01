@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #EBE3D5;
+    color: #776B5D;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+body {
+    background-image: url(./Assets/coffee5.jpg);
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+a {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #776B5D;
+    color: #F3EEEA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B0A695;
+}
+
+#logo {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+
+
+
+
+
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
